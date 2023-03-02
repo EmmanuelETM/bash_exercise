@@ -3,7 +3,7 @@
 #Numero aleatorio
 num_random=$(( 1 + RANDOM % 10 ))
 #echo $num_random
-try=5
+attempt=5
 
 #Juego
 while [ true ]
@@ -19,14 +19,13 @@ do
 
     else
         echo "Thats a wrong number! Keep trying"
-        let try=try-1
-        if [[ "$try" -le 0 ]]; then
+        let attempt=attempt-1
+        if [[ "$attempt" -le 0 ]]; then
             printf "\n"
             echo "Game Over! You are pretty bad at this!"
             sleep 2
             break
         fi
-
     fi
-    
+
 done

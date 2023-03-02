@@ -3,7 +3,7 @@
 # First line of the script is the shebang which tells the system how to execute
 # the script: https://en.wikipedia.org/wiki/Shebang_(Unix)
 # As you already figured, comments start with #. Shebang is also a comment.
-j
+
 # Simple hello world example:
 echo "Hello world!" # => Hello world!
 
