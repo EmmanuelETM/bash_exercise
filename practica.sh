@@ -15,6 +15,7 @@ do
     if [[ "$num_random" == "$choice" ]]; then
         echo "Congrats!!! You won the Game"
         sleep 2
+        clear
         break
 
     else
