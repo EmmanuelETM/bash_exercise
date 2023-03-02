@@ -2,24 +2,24 @@
 
 echo "Hello World"
 
-nombre="Emmanuel "; apellidos="Torres Malena lepp"
+nombre="Emmanuel "; apellidos="Torres Malena waos"
 
 echo $nombre; echo $apellidos
 
 echo "${nombre}"
-echo "${apellidos/lepp/lit}"
+echo "${apellidos/waos/lit}"
 
 //string length
 echo "The length of apellidos is ${#apellidos}"
 
-lepp=(le pp la pussy very gud) #array
+waos=(phone laptop nails very gud) #array
 
-echo "${lepp[1]}" #->pp
-echo "${lepp[@]}" #everything of the array with @
+echo "${waos[1]}" #->pp
+echo "${waos[@]}" #everything of the array with @
 
-echo "${#lepp[@]}" # length of the array
+echo "${#waos[@]}" # length of the array
 
-echo "${lepp[@]:3:2}" #slicing operator
+echo "${waos[@]:3:2}" #slicing operator
 
 #for loop
 
@@ -114,12 +114,13 @@ count=0
 while [ true ]
 do 
     count=$((count + 1))
-    echo "la creta"
+    echo "yo"
     read amogus
-    if [[$count == 5] && [$amogus == "la creta"]]
+    if [[$count == 5] && [$amogus == "yo"]]
         sleep 3
         break
 done
+
 
 sleep 1
 
