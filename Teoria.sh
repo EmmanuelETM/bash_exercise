@@ -162,3 +162,5 @@ bar ()
 tail -n 10 file.txt #prints last 10 lines on a file
 head -n 10 file.txt #prints first 10 lines on a file
 sort file.txt #sorts the lines
+
+help #It gives me the whole palette of flags that a function has
