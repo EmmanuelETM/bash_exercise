@@ -9,9 +9,10 @@ error() {
 
 
 while  [[ true ]]; do
+
     clear
     echo ""
-    echo -n "Enter your name ( -1 to exit ): "
+    echo "Enter your name ( -1 to exit ): "
     read name
 
     if (($name == -1 ));then
