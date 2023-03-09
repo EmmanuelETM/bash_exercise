@@ -13,13 +13,13 @@ while  [[ true ]]; do
     echo ""
     echo -n "Enter your name ( -1 to exit ): "
     read name
-    
-    nameArray=("${array[@]}" $name)
-    CountArgs=${#nameArray[@]}
 
     if (($name == -1 ));then
         break
     fi
+    
+    nameArray=("${array[@]}" $name)
+    CountArgs=${#nameArray[@]}
 
     if [[ $(($CountArgs)) > 1 ]];then
         badcommand
