@@ -16,6 +16,7 @@ while  [[ true ]]; do
     read name
 
     if (($name == -1 ));then
+        echo "See you later!"
         break
     fi
     
